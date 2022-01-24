@@ -1,4 +1,4 @@
-#Introduzione
+# Introduzione
 Questo applicativo implementa 3 servizi per la gestione delle seguenti operazioni su un conto passato in input
 - Lettura saldo
 - Lista delle transazioni
