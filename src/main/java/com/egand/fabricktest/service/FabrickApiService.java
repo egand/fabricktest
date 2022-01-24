@@ -29,7 +29,7 @@ public class FabrickApiService {
 
     @Autowired
     public FabrickApiService(WebClient.Builder webClientBuilder, FabrickApiProperties properties) {
-        log.info(properties.toString());
+        // log.info(properties.toString());
         this.webClient = webClientBuilder
                 .baseUrl(properties.getBaseUrl())
                 .defaultHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE)
